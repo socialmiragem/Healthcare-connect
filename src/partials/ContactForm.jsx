@@ -68,7 +68,7 @@ const ContactForm = () => {
 
         {/* Select */}
         <div className="col-md-6">
-          <label htmlFor="option" className="form-label">Select an option</label>
+          <label htmlFor="option" className="form-label">Coverage Type</label>
           <select name="option" className="form-select">
             <option value="">select coverage type</option>
             <option value="option1">Option 1</option>

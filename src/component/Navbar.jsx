@@ -20,7 +20,7 @@ const Navbar = () => {
                                             <a className="nav-link fs-20 px-4 fw-semibold text-primary text-capitalize" href="#Plantable">Plans</a>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link fs-20 px-4 fw-semibold text-primary text-capitalize" href="#testimonials">Review</a>
+                                            <a className="nav-link fs-20 px-4 fw-semibold text-primary text-capitalize" href="#testimonials">Reviews</a>
                                         </li>
                                         <li className="nav-item">
                                             <a className="nav-link fs-20 px-4 fw-semibold text-primary text-capitalize" href="#faqs">FAQs</a>
@@ -33,7 +33,7 @@ const Navbar = () => {
                             </div>
                             <div className="col-md-3 d-md-block d-none">
                                 <div className="d-flex justify-content-end">
-                                    <a href="#" className="bg-secondary text-white text-capitalize text-decoration-none p-3 rounded-1 fs-20">Get A Qoute</a>
+                                    <a href="#contact" className="bg-secondary text-white text-capitalize text-decoration-none p-3 rounded-1 fs-20">Get A Quote</a>
                                 </div>
                             </div>
                         </div>

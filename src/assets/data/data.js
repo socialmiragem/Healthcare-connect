@@ -1,5 +1,5 @@
 export const counterData = [
-  { id: 1, title: "Members Covered", count: "10,000", isCounter: true, suffix : "+" },
+  { id: 1, title: "Members Covered", count: "10000", isCounter: true, suffix : "+" },
   { id: 2, title: "Healthcare Partners", count: "50", isCounter: true, suffix : "+" },
   { id: 3, title: "Member Support", count: "24/7", isCounter: false, suffix : "" },
   { id: 4, title: "Customer Satisfaction", count: "98", isCounter: true, suffix : "%" },

@@ -31,7 +31,7 @@ const Footer = () => {
             </div>
         </div>
         <div className="subfooter px-3 py-2 bg-primary border-top">
-            <Paragraph text='© 2025 HealthCare Connect. All rights reserved. Licensed Insurance Professional.' className='text-grey fs-15 mb-0 text-center'/>
+            <Paragraph text='© 2025 HealthCare Connect. All rights reserved. Licensed Insurance Professional.' className='text-white fs-15 mb-0 text-center'/>
         </div>
     </>
   )
