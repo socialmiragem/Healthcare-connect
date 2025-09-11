@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+:root {
+  --primary: #101828;
+  --secondary: #155dfc;
+  --secondary-light: #e4edff;
+  --white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #fafafa;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+a,
+li,
+span,
+div {
+  font-family: "Lato", sans-serif;
+}
+.text-primary {
+  color: var(--primary) !important;
+}
+.text-secondary {
+  color: var(--secondary) !important;
+}
+.text-light-blue {
+  color: var(--secondary-light) !important;
+}
+.text-white {
+  color: var(--white) !important;
+}
+.text-grey {
+  color: #626262bf !important;
+}
+.bg-primary {
+  background-color: var(--primary) !important;
+}
+.bg-secondary {
+  background-color: var(--secondary) !important;
+}
+.bg-light-blue {
+  background-color: var(--secondary-light) !important;
+}
+.bg-white {
+  background-color: var(--white) !important;
+}
+
+.fs-68 {
+  font-size: 68px;
+}
+.fs-50 {
+  font-size: 50px;
+}
+.fs-48 {
+  font-size: 48px;
+}
+.fs-32 {
+  font-size: 32px;
+}
+.fs-28 {
+  font-size: 28px;
+}
+.fs-24 {
+  font-size: 24px;
+}
+.fs-20 {
+  font-size: 20px;
+}
+.fs-18 {
+  font-size: 18px;
+}
+.fs-15 {
+  font-size: 15px;
+}
+#navigation {
+  img {
+    max-width: 280px;
+  }
+  .nav_item{width: 100%;}
+}
+.cards {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--white);
+  padding: 15px;
+  border-radius: 10px;
+  height: 100%;
+  min-height: 330px;
+  padding: 30px;
+  border: 1px solid #62626226;
+  transition: 0.3s ease-in;
+  .wrap {
+    background-color: var(--secondary-light);
+    display: inline-block;
+    padding: 15px;
+    border-radius: 10px;
+    img {
+      width: 40px;
+    }
+  }
+  .content {
+    text-align: center;
+    margin-top: 15px;
+  }
+  &:hover {
+    background-color: var(--secondary);
+    color: var(--white);
+    transition: 0.3s ease-in;
+    .wrap {
+      background-color: var(--white);
+      transition: 0.3s ease-in;
+    }
+  }
+}
+.comparison-table th {
+  font-weight: 600;
+}
+.comparison-table td {
+  vertical-align: middle;
+  padding: 12px;
+}
+.comparison-table {
+  img {
+    width: 20px;
+    height: 20px;
+  }
+  table {
+    overflow: hidden;
+  }
+  .title_table {
+    font-weight: 500;
+  }
+}
+
+.testiItem {
+  border: 1px solid #62626226;
+  border-radius: 10px;
+  img.stars {
+    width: 140px;
+  }
+  .testiItem_container {
+    height: 100%;
+    min-height: 330px;
+  }
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: var(--white) !important;
+  box-shadow: unset !important;
+  color: var(--secondary) !important;
+}
+.accordion-button {
+  font-size: 24px;
+  border-radius: 10px;
+  /* border: 1px solid #62626226; */
+    border: 0;
+}
+.accordion-item {
+  margin-bottom: 10px;
+  border: 0;
+  border-radius: 10px;
+    border: 1px solid #62626226;
+
+}
+.accordion-button:focus{
+    box-shadow: unset !important;
+}
+.accordion-button:not(.collapsed)::after{
+    background-image : url(../../../public/images/minus.png) !important
+}
+.accordion-button::after{
+    background-image : url(../../../public/images/plus.png) !important
+}
+#footer{
+    img.logoalt{
+        width: 280px;
+    }
+    .btn-outline-primary{
+        border: 1px solid #fff ;
+        &:hover{
+            background-color: var(--secondary) !important;
+            border: 1px solid var(--secondary) !important;
+        }
+    }
+}
+.border-top{
+    border-top: 1px solid #FFFFFF30 !important;
+}
+
+#contact_form{
+    label{
+        color: var(--white);
+        font-size: 20px;
+    }
+    input{
+        height: 50px;
+        border-radius: 5px;
+    }
+    select{
+        height: 50px;
+        border-radius: 5px;
+        text-transform: capitalize;
+    }
+    textarea{
+        min-height: 300px ;
+    }
+}
+::placeholder{
+    color: var(--primary) !important;
+    text-transform: capitalize;
+    font-weight: 500 !important;
+}

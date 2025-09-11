@@ -1,0 +1,104 @@
+@media (max-width: 1366px) {
+  .fs-20 {
+    font-size: 18px;
+  }
+  .fs-68 {
+    font-size: 57px;
+  }
+  .fs-28 {
+    font-size: 24px;
+  }
+  .fs-50 {
+    font-size: 40px;
+  }
+  .fs-48 {
+    font-size: 40px;
+  }
+  .fs-32 {
+    font-size: 23px;
+  }
+  .fs-24 {
+    font-size: 20px;
+  }
+  .cards {
+    & .wrap {
+      img {
+        width: 28px;
+      }
+    }
+  }
+  .accordion-button {
+    font-size: 20px;
+  }
+  #contact_form {
+    textarea {
+      min-height: 200px;
+    }
+  }
+  .fs-18 {
+    font-size: 14px;
+  }
+}
+@media (max-width: 500px) {
+  #hero {
+    .wrap {
+      img {
+        height: 700px;
+        object-fit: cover;
+        object-position: center center;
+      }
+    }
+  }
+  .fs-68 {
+    font-size: 45px;
+  }
+  .fs-50 {
+    font-size: 30px;
+  }
+  .fs-28 {
+    font-size: 20px;
+  }
+  .fs-48 {
+    font-size: 30px;
+  }
+  .accordion-button {
+    font-size: 16px;
+  }
+  #contact {
+    .wrap {
+      img {
+        height: 900px;
+        object-fit: cover;
+      }
+    }
+  }
+  .fs-24 {
+    font-size: 18px;
+  }
+  .icon_footer {
+    width: 15px;
+    height: 15px;
+    object-fit: contain;
+  }
+  .fs-15 {
+    font-size: 12px;
+  }
+  .font_mobile{
+    font-size: 18px !important;
+  }
+  .title_table {
+    font-size: 15px !important;
+  }
+  .comparison-table {
+
+    img {
+        width: 15px;
+        height: 15px;
+        /* display: none; */
+    }
+}
+#navigation {
+  
+  .nav_item{width: unset;}
+}
+}
