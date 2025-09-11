@@ -17,16 +17,16 @@ const Navbar = () => {
                                 <div className="collapse navbar-collapse align-items-center" id="navbarSupportedContent">
                                     <ul className="navbar-nav m-auto">
                                         <li className="nav-item">
-                                            <a className="nav-link fs-20 px-4 fw-semibold text-primary text-capitalize" href="#">Plans</a>
+                                            <a className="nav-link fs-20 px-4 fw-semibold text-primary text-capitalize" href="#Plantable">Plans</a>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link fs-20 px-4 fw-semibold text-primary text-capitalize" href="#">Review</a>
+                                            <a className="nav-link fs-20 px-4 fw-semibold text-primary text-capitalize" href="#testimonials">Review</a>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link fs-20 px-4 fw-semibold text-primary text-capitalize" href="#">FAQs</a>
+                                            <a className="nav-link fs-20 px-4 fw-semibold text-primary text-capitalize" href="#faqs">FAQs</a>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link fs-20 px-4 fw-semibold text-primary text-capitalize" href="#">Contact</a>
+                                            <a className="nav-link fs-20 px-4 fw-semibold text-primary text-capitalize" href="#contact">Contact</a>
                                         </li>
                                     </ul>
                                 </div>
