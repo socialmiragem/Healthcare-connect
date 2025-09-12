@@ -3,16 +3,16 @@ import emailjs from "@emailjs/browser";
 
 const ContactForm = () => {
   const form = useRef();
-  const [status, setStatus] = useState(null); // success | error | null
+  const [status, setStatus] = useState(null); 
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
     emailjs.sendForm(
-      import.meta.env.VITE_EMAILJS_SERVICE_ID,   // your service ID
-      import.meta.env.VITE_EMAILJS_TEMPLATE_ID,  // your template ID
+      import.meta.env.VITE_EMAILJS_SERVICE_ID,   
+      import.meta.env.VITE_EMAILJS_TEMPLATE_ID,  
       form.current,
-      import.meta.env.VITE_EMAILJS_PUBLIC_KEY    // your public key
+      import.meta.env.VITE_EMAILJS_PUBLIC_KEY    
     )
       .then(() => {
         setStatus("success");
@@ -59,7 +59,7 @@ const ContactForm = () => {
         <div className="col-md-6">
           <label htmlFor="phone" className="form-label">Phone</label>
           <input
-            type="tel"
+            type="number"
             name="phone"
             className="form-control"
             placeholder="(555) 123-4567"
@@ -71,9 +71,10 @@ const ContactForm = () => {
           <label htmlFor="option" className="form-label">Coverage Type</label>
           <select name="option" className="form-select">
             <option value="">select coverage type</option>
-            <option value="option1">Option 1</option>
-            <option value="option2">Option 2</option>
-            <option value="option3">Option 3</option>
+            <option value="Individual">Individual</option>
+            <option value="Family">Family</option>
+            <option value="Small_Business">Small Business</option>
+            <option value="Short_Term">Short Term</option>
           </select>
         </div>
 

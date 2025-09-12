@@ -14,17 +14,17 @@ const Footer = () => {
                 <div className="row mx-0 mt-4 justify-content-center">
                     <div className="col-md-3 text-center">
                         <div>
-                            <a href="tel:5553279462" className='text-decoration-none fs-18 text-white btn-outline-primary btn rounded-pill px-md-5 py-md-3 px-3 py-2 mb-md-0 mb-3' ><span className='me-md-3 me-1'><img src="/images/6.png" alt="" className="img-fluid icon_footer" /></span>(555) 327-9462</a>
+                            <a href="tel:9546968605" className='text-decoration-none fs-18 text-white btn-outline-primary btn rounded-pill px-md-5 py-md-3 px-3 py-2 mb-md-0 mb-3' ><span className='me-md-3 me-1'><img src="/images/6.png" alt="" className="img-fluid icon_footer" /></span>(954) 696-8605</a>
                         </div>
                     </div>
                     <div className="col-md-5 text-center">
                         <div>
-                            <a href="tel:5553279462" className='text-decoration-none fs-18 text-white btn-outline-primary btn rounded-pill px-md-5 py-md-3 px-3 py-2 mb-md-0 mb-3' ><span className='me-md-3 me-1'><img src="/images/7.png" alt="" className="img-fluid icon_footer" /></span>2450 Westbrook Avenue, Dallas, TX 75201</a>
+                            <a href="tel:5553279462" className='text-decoration-none fs-18 text-white btn-outline-primary btn rounded-pill px-md-5 py-md-3 px-3 py-2 mb-md-0 mb-3' ><span className='me-md-3 me-1'><img src="/images/7.png" alt="" className="img-fluid icon_footer" /></span>1342 N Main St Suite 6, Ann Arbor, MI 48104</a>
                         </div>
                     </div>
                     <div className="col-md-4 text-center">
                         <div>
-                            <a href="mailto:support@healthcareconnect.com" className='text-decoration-none fs-18 text-white btn-outline-primary btn rounded-pill px-md-5 py-md-3 px-3 py-2 mb-md-0 mb-3' ><span className='me-md-3 me-1'><img src="/images/8.png" alt="" className="img-fluid icon_footer" /></span>support@healthcareconnect.com</a>
+                            <a href="mailto:info.markuleone@gmail.com" className='text-decoration-none fs-18 text-white btn-outline-primary btn rounded-pill px-md-5 py-md-3 px-3 py-2 mb-md-0 mb-3' ><span className='me-md-3 me-1'><img src="/images/8.png" alt="" className="img-fluid icon_footer" /></span>info.markuleone@gmail.com</a>
                         </div>
                     </div>
                 </div>

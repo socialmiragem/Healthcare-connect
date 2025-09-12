@@ -14,7 +14,7 @@ const Home = () => {
                 title = "Healthcare Made Simple for You & Your Family"
                 desc = "Skip the stress. Get affordable coverage with clear benefits and personal support every step of the way."
                 anchor_text="book an appointment"
-                anchor_link=""
+                anchor_link="#contact"
             />
             <Counter/>
             <Cards
