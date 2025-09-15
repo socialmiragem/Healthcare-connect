@@ -11,27 +11,28 @@ const Home = () => {
     return (
         <>
             <Hero
-                title = "Healthcare Made Simple for You & Your Family"
-                desc = "Skip the stress. Get affordable coverage with clear benefits and personal support every step of the way."
+                title="Healthcare Made Simple for You & Your Family"
+                desc="Skip the stress. Get affordable coverage with clear benefits and personal support every step of the way."
                 anchor_text="book an appointment"
                 anchor_link="#contact"
             />
-            <Counter/>
+            <Counter />
             <Cards
                 title="Why Families Trust HealthCare Connect"
+            />
+            <Contact
+                title="Speak With a Licensed Expert Today"
             />
             <Table
                 title="Private vs Traditional Insurance"
             />
             <Testimonials
-                title = "Trusted by Families Nationwide"
+                title="Trusted by Families Nationwide"
             />
             <Faqs
                 title="Get Answers to Your Questions"
             />
-            <Contact
-                title = "Speak With a Licensed Expert Today"
-            />
+
         </>
     )
 }

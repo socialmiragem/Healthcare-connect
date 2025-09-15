@@ -59,7 +59,11 @@ export const testimonialData = [
     { id : 1, title : "Sarah M.", stars : "/images/stars.png", icon : "/images/5.png", message : "HealthCare Connect made finding coverage stress-free. I saved money, got better benefits, and finally feel confident about my family’s health insurance."},
     { id : 2, title : "David R.", stars : "/images/stars.png", icon : "/images/5.png", message : "I was unsure about switching plans, but the licensed experts guided me step by step. Now I have affordable coverage with no hidden costs or confusion."},
     { id : 3, title : "Emily T.", stars : "/images/stars.png", icon : "/images/5.png", message : "The process was fast, easy, and free. I love that I can reach support anytime and know I’m always protected with flexible health coverage that fits my needs."},
-]
+    { id : 4, title : "Sarah M.", stars : "/images/stars.png", icon : "/images/5.png", message : "HealthCare Connect made finding coverage stress-free. I saved money, got better benefits, and finally feel confident about my family’s health insurance."},
+    { id : 5, title : "David R.", stars : "/images/stars.png", icon : "/images/5.png", message : "I was unsure about switching plans, but the licensed experts guided me step by step. Now I have affordable coverage with no hidden costs or confusion."},
+    { id : 6, title : "Emily T.", stars : "/images/stars.png", icon : "/images/5.png", message : "The process was fast, easy, and free. I love that I can reach support anytime and know I’m always protected with flexible health coverage that fits my needs."},
+
+  ]
 
 
 export const faqsData = [
