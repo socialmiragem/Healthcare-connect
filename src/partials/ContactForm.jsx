@@ -1,22 +1,33 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import ReCAPTCHA from "react-google-recaptcha";
 
 const ContactForm = () => {
   const form = useRef();
-  const [status, setStatus] = useState(null); 
+  const recaptchaRef = useRef();
+  const [status, setStatus] = useState(null);
+  const [captcha, setCaptcha] = useState(null);
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(
-      import.meta.env.VITE_EMAILJS_SERVICE_ID,   
-      import.meta.env.VITE_EMAILJS_TEMPLATE_ID,  
-      form.current,
-      import.meta.env.VITE_EMAILJS_PUBLIC_KEY    
-    )
+    if (!captcha) {
+      setStatus("captchaError");
+      return;
+    }
+
+    emailjs
+      .sendForm(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        form.current,
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+      )
       .then(() => {
         setStatus("success");
         form.current.reset();
+        recaptchaRef.current.reset();
+        setCaptcha(null);
       })
       .catch(() => {
         setStatus("error");
@@ -89,6 +100,15 @@ const ContactForm = () => {
           ></textarea>
         </div>
 
+        {/* reCAPTCHA */}
+        <div className="col-12 d-flex justify-content-center">
+          <ReCAPTCHA
+            sitekey={import.meta.env.VITE_RECAPTCHA_SITE_KEY} // put your site key here
+            onChange={(val) => setCaptcha(val)}
+            ref={recaptchaRef}
+          />
+        </div>
+
         {/* Submit button */}
         <div className="col-12">
           <button
@@ -109,6 +129,11 @@ const ContactForm = () => {
       {status === "error" && (
         <p className="text-danger text-center mt-3">
           ❌ Failed to send message. Please try again later.
+        </p>
+      )}
+      {status === "captchaError" && (
+        <p className="text-warning text-center mt-3">
+          ⚠️ Please complete the reCAPTCHA.
         </p>
       )}
     </div>
