@@ -24,7 +24,7 @@ const Footer = () => {
                     </div>
                     <div className="col-md-4 text-center">
                         <div>
-                            <a href="mailto:info.markuleone@gmail.com" className='text-decoration-none fs-18 text-white btn-outline-primary btn rounded-pill px-md-5 py-md-3 px-3 py-2 mb-md-0 mb-3' ><span className='me-md-3 me-1'><img src="/images/8.png" alt="" className="img-fluid icon_footer" /></span>info.markuleone@gmail.com</a>
+                            <a href="mailto:info@gethealthforms.com" className='text-decoration-none fs-18 text-white btn-outline-primary btn rounded-pill px-md-5 py-md-3 px-3 py-2 mb-md-0 mb-3' ><span className='me-md-3 me-1'><img src="/images/8.png" alt="" className="img-fluid icon_footer" /></span>info@gethealthforms.com</a>
                         </div>
                     </div>
                 </div>
